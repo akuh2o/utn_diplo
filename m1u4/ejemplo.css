@@ -1,0 +1,44 @@
+h1{
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    /*comentarios*/
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+p{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primer{
+    /*clase*/
+    color :red;
+    font-size: 25px;
+}
+
+.primerdestacado{
+    /*destacado dentro del texto*/
+    color: blueviolet;
+}
+
+#series{
+    /*id*/
+    background-color: coral;
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+    border: 5px solid black;
+}
+
+#pelis{
+    /*id*/
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+    border: 5px solid black;
+}
