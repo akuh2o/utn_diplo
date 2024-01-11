@@ -9,6 +9,9 @@ h3{
     font-family:Georgia, 'Times New Roman', Times, serif; 
 }
 
+img{
+    border-radius: 15px;/*Tarea M2U1*/
+}
 p{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,7 +23,18 @@ p{
     font-size: 25px;
 }
 
+.segundo{
+    /*clase*/
+    font-family: 'Lemon', serif;/*Tarea M2U1*/
+}
+
+.tercero{
+    /*clase*/
+    font-family: 'Anton', sans-serif; /*Tarea M2U1*/
+}
+
 .primerdestacado{
+    /*clase*/
     /*destacado dentro del texto*/
     color: blueviolet;
 }
@@ -32,6 +46,8 @@ p{
     padding: 5px;
     margin: 2%;
     border: 5px solid black;
+    box-shadow: 5px 5px 5px black; /*Tarea M2U1*/
+    border-radius: 10px /*Tarea M2U1*/;
 }
 
 #pelis{
@@ -41,4 +57,6 @@ p{
     padding: 5px;
     margin: 2%;
     border: 5px solid black;
+    box-shadow: 5px 5px 10px black; /*Tarea M2U1*/
+    border-radius: 10px /*Tarea M2U1*/;
 }
