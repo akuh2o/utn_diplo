@@ -1,0 +1,30 @@
+#contenedor{
+    background-color: white;
+    border: 5px solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#verde{
+    background-color: green;
+}
+
+.item{
+    width: 20%;
+	height: 300px;
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
