@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container" style="background-color: aqua;">contenedor 1</div>
+  <div class="container-sm" style="background-color: chocolate;">este es un contenedor sm</div>
+  <div class="container" style="background-color: rgb(255, 251, 0);">contenedor fluid
+    <div class="container text-center">
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://media.4-paws.org/d/f/a/1/dfa15c65e6228ced973baa89312e053188c2e407/VIER%20PFOTEN_2016-07-08_011-4993x3455-1920x1329.webp"
+          class="card-img-top" alt="image not found">
+        <div class="card-body">
+          <h5 class="card-title">Imagen</h5>
+          <p class="card-text">card con imagen web</p>
+          <a href="https://www.four-paws.org/campaigns-topics/topics/companion-animals/10-facts-about-cats"
+            class="btn btn-primary">Go web</a>
+        </div>
+      </div>
+      <div class="row">
+        <!--para que haga las columnas, deben tener la clase "col"-->
+        <div class="col" style="background-color:  rosybrown;">columna 1  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad nesciunt totam deleniti doloribus eaque natus mollitia corporis? Similique ut eligendi earum. Molestias nemo nesciunt perspiciatis amet facere consequatur magni.</div>
+        <div class="col" style="background-color: crimson;">columna 2</div>
+        <div class="col">columna 3</div>
+        <div class="col">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card 1</h5>
+                  <p class="card-text">Texto 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card 2</h5>
+                  <p class="card-text">Texto 2</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!--el maximo de columnas es 12, cuando especificamos el ancho, la suma no puede dar mas de 12, sino pega un salto-->
+        <div class="col-5" style="background-color: cornflowerblue;">columna 5</div>
+        <div class="col-5" style="background-color: deeppink;">columna 6</div>
+        <div class="col-2" style="background-color: cornflowerblue;">columna 7</div>
+      </div>
+      <div>este div no tiene class col, tiene centrado el texto</div>
+      <div class="row">
+        <div class="col">
+          <form>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    First radio
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Second radio
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
+                    disabled>
+                  <label class="form-check-label" for="gridRadios3">
+                    Third disabled radio
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Example checkbox
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+        <div class="col">
+          <form>
+            <div class="row mb-3">
+              <label for="inputDomicilio" class="col-sm-2 col-form-label">Domicilio</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputDomicilio">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputAltura" class="col-sm-2 col-form-label">Altura</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputAltura">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <!--<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                First radio
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                Second radio
+                              </label>
+                            </div>
+                            <div class="form-check disabled">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                              <label class="form-check-label" for="gridRadios3">
+                                Third disabled radio
+                              </label>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <div class="row mb-3">
+                          <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">
+                                Example checkbox
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>-->
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- https://getbootstrap.com/docs/5.3/forms/layout/#horizontal-form -->
+<!-- https://placehold.co/ (imagenes gises)-->
