@@ -149,3 +149,81 @@ main img{
 .game:nth-child(even){
     flex-direction: row-reverse;
 }
+
+/*software*/
+
+.softwares{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.soft img{
+    padding: 2%;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.soft{
+    border: 1px solid black;
+    align-content: center;
+}
+
+.soft h4{
+    text-align: center;
+}
+
+/*contacto*/
+
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datoscontacto ul li{
+    font-size: 20px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 6px 20px;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    width: auto;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: white;
+}

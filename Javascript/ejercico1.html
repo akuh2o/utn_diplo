@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const medio = ['pie','bicicleta','colectivo','auto','avion'];
+        let distancia = prompt('ingrese una distancia en metros:');
+        function transporte (distancia){
+            if( distancia>=0 && distancia<=1000 ){
+                console.log(`el medio de transporte adecuado es ${medio[0]}`);
+            }else if ( distancia>=1001 && distancia<=10000){
+                console.log(`el medio de transporte adecuado es ${medio[1]}`);
+            }else if ( distancia>=10001 && distancia<=30000){
+                console.log(`el medio de transporte adecuado es ${medio[2]}`);
+            }else if ( distancia>=30001 && distancia<=100000){
+                console.log(`el medio de transporte adecuado es ${medio[3]}`);
+            }else if ( distancia>=100001){
+                console.log(`el medio de transporte adecuado es ${medio[4]}`);
+            }else{
+                console.log('error');
+            }
+        }
+        transporte(distancia);
+    </script>
+</body>
+</html>
