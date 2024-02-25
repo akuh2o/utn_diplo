@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="ej1.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <button class="cuadrado azul" onclick="cambiar(this)"></button> <!--puedo sumar dos clases, cuadrado y el color-->
+        <button class="cuadrado rojo" onclick="cambiar(this)"></button>
+        <button class="cuadrado verde" onclick="cambiar(this)"></button>
+    </div>
+
+    <script>
+        function cambiar(elemento){
+            var estilo = window.getComputedStyle(elemento); //traigo todos los estilos del boton
+            var colorfondo = estilo.backgroundColor; //de todos los estilos tomo el color de fondo
+            document.body.style.backgroundColor = colorfondo; //cambio el color de fondo de pantalla igualandolo al color que obtuve arriba
+        }
+    </script>
+</body>
+
+</html>
